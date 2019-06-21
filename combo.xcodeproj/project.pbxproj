@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3527AFC822BCDBDB008A9377 /* gameoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527AFC722BCDBDB008A9377 /* gameoverViewController.swift */; };
+		3527AFCA22BCDDDD008A9377 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3527AFC922BCDDDD008A9377 /* startViewController.swift */; };
 		59DF7D12229E258B0081D1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF7D11229E258B0081D1B0 /* AppDelegate.swift */; };
 		59DF7D14229E258B0081D1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DF7D13229E258B0081D1B0 /* ViewController.swift */; };
 		59DF7D17229E258B0081D1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DF7D15229E258B0081D1B0 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3527AFC722BCDBDB008A9377 /* gameoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameoverViewController.swift; sourceTree = "<group>"; };
+		3527AFC922BCDDDD008A9377 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 		59DF7D0E229E258B0081D1B0 /* combo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = combo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DF7D11229E258B0081D1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59DF7D13229E258B0081D1B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,8 +61,10 @@
 				59DF7D11229E258B0081D1B0 /* AppDelegate.swift */,
 				59DF7D13229E258B0081D1B0 /* ViewController.swift */,
 				59DF7D15229E258B0081D1B0 /* Main.storyboard */,
+				3527AFC722BCDBDB008A9377 /* gameoverViewController.swift */,
 				59DF7D18229E258C0081D1B0 /* Assets.xcassets */,
 				59DF7D1A229E258C0081D1B0 /* LaunchScreen.storyboard */,
+				3527AFC922BCDDDD008A9377 /* startViewController.swift */,
 				59DF7D1D229E258C0081D1B0 /* Info.plist */,
 			);
 			path = combo;
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3527AFC822BCDBDB008A9377 /* gameoverViewController.swift in Sources */,
+				3527AFCA22BCDDDD008A9377 /* startViewController.swift in Sources */,
 				59DF7D14229E258B0081D1B0 /* ViewController.swift in Sources */,
 				59DF7D12229E258B0081D1B0 /* AppDelegate.swift in Sources */,
 			);
